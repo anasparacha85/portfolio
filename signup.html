@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+        
+    </style>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <div class="text">Anas paracha</div>
+        </div>
+        <ul>
+           
+            <button id="back">Back to Portfolio</button>
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class="con1">
+            <h2>Welcome Back!</h2>
+            <br>
+            <p>to keep connected with us please login with your personal info.</p>
+            <br>
+            <button id="btn">Sign in</button>
+        </div>
+        <div class="con2">
+          <h2>Create Account</h2>
+          <br>
+          <button id="f">f</button>
+          <button id="g">G+</button>
+          <button id="in">in</button>
+
+       
+
+        <p>or use your email for Registeration</p>
+        <br>
+        <input type="text" placeholder="Name" id="Name">
+        <br>
+        <input type="text"placeholder="Email/Phone Number" id="email">
+        <br>
+        <input type="text" placeholder="Password" id="Password">
+        <br>
+        <button id="Signup">Sign up</button>
+    </div>
+    </div>
+    <br><br><br>
+    <span class="email">
+        Email: <a href="https://mail.google.com/mail/u/0/#all?compose=new"><u>Amiranas761@gmail.com</u></a> 
+       </span>
+       <span class="contact">
+           Contact : <u>03212167055</u></span>
+    <footer>
+        <p>copyright &copy; Made by <b>Anas paracha</b></p>
+        <p>Software Engineer  <b>Anas paracha</b></p>
+    </footer>
+    <br><br><br>
+    <script>
+       
+//         async function wait2(){
+//             return new Promise((resolve, reject) => {
+//                 setTimeout(() => {
+//                    window.loaction.replace(
+//     "http://127.0.0.1:5500/index.html",
+// ); 
+// resolve()
+//                 }, 600);
+
+//             })
+//         }
+        async function wait2(){
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    window.location.replace(
+  "http://127.0.0.1:5500/index.html",
+);
+resolve()
+                }, 500);
+              
+            })
+        }
+        let back=document.getElementById('back');
+        back.addEventListener('click',async function fullwait(){
+             let a=await wait2();
+//             window.location.replace(
+//   "http://127.0.0.1:5500/index.html",
+// );
+
+        }
+    )
+        let string="";
+        let St2="abcdefgh";
+        let len=St2.length;
+    let name=document.querySelector('#Name');
+    let email=document.querySelector('#email');
+    let password=document.querySelector('#Password');
+    document.getElementById('Signup').addEventListener('click',function (){
+        if(name.value==string || email.value==string || password.value==string ){
+            alert('invalid email or password /the field should not be Empty')
+        }
+        else if(password.value.length<len){
+            alert('the password should be or more tna 8 characters')
+        }
+        else{
+            alert("Account Created Successfully!!")
+            window.location.replace('https://www.ou.edu/class/che-design/a-design/PROJECTS.pdf',)
+        }
+    })
+    
+    </script>
+</body>
+</html>

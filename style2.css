@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .logo{
+   
+    height: 50px;
+    width:50px;
+    background: rgb(229, 23, 23);
+    margin-left:15px ;
+    margin-top: 15px;
+    color: white;
+    border-radius: 100%;
+    box-shadow: 7px 4px 4px rgb(154, 44, 44);
+
+}
+.nav .logo .text{
+    width: 150px;
+    height: 50px;
+
+    margin-top: 10px;
+ 
+ padding-left: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Radio Canada Big", sans-serif;
+
+}
+.nav ul{
+   
+    font-size: 12px;
+   
+   
+}
+
+.nav ul button{
+    background: red;
+    color: white;
+    padding: 5px 15px;
+    margin: 30px;
+    font-family: "Radio Canada Big", sans-serif;
+
+font-weight:bold;
+border-radius: 20%;
+cursor: pointer;
+    
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+  
+    margin-left: 90px;
+    margin-top: 30px;
+  
+    display: flex;
+    
+
+   border-radius: 5%;
+   background:linear-gradient(to right,rgb(155, 18, 18) ,rgb(202, 41, 41) 37%, white 37%,white 100%)
+  
+  
+}
+.con1{
+    
+    
+    height: 90%;
+    width: 37vw;
+    font-family:  "Radio Canada Big", sans-serif;
+    
+ 
+}
+.con2{
+    height: 100%;
+    width: 63vw;
+    font-family:  "Radio Canada Big", sans-serif;
+}
+.con1 h2{
+    margin-top: 150px;
+    color :white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.con1 p{
+    color:white;
+    font-size: 140x;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.con1 button{
+    background: transparent;
+    font-size: 16px;
+    padding: 10px 35px;
+cursor: pointer;
+    border-radius: 30%;
+    margin-left: 90px;
+    border-color: white;
+    color: white;
+
+}
+.con2 h2{
+    margin-top: 90px;
+    color :white;
+    text-align: center;
+    color: rgb(220, 15, 15);
+}
+
+.con2 #f{
+    margin-left: 190px;
+    height: 30px;
+   width: 30px;
+   
+    color: black;
+    border-color: grey;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+   cursor: pointer;
+}
+.con2 #g{ height: 30px;
+   width: 30px;
+    margin: 10px;
+    color: black;
+    border-color: grey;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+   }
+.con2 #in{
+cursor: pointer; 
+height: 30px;
+   width: 30px;
+    margin: 10px;
+    color: black;
+    border-color: grey;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+   }
+
+.con2 p{
+    text-align: center;
+    color: rgb(142, 135, 135);
+    font-size: 10px;
+}
+.con2 input{
+    display :block;
+    width: 350px;
+    height: 40px;
+    backdrop-filter: blur(20%);
+    margin-left: 100px;
+    border: none;
+    background: rgb(227, 222, 222);
+}
+.con2 #Signup{
+
+    background: red;
+    font-size: 16px;
+    padding: 10px 35px;
+
+    border-radius: 30%;
+    margin-left: 200px;
+    
+    color: white;
+    cursor: pointer;
+}
+.email{
+color: white;
+font-weight: bold;
+float: left;
+padding-right: 32px;
+}
+.email a{
+color :white;
+}
+.contact{
+color: white;
+font-weight: bold;
+float: right;
+
+padding-right: 42px;
+
+
+
+}
+footer{
+background-color: rgb(158, 20, 8);
+height: 60px;
+width: 100vw;
+color: white;
+margin-top: 50px;
+
+}
+
+footer p{
+text-align: center;
+}
+.footbar a{
+color: white;
+}
